@@ -1,0 +1,11 @@
+<svg width="100%" height="100%" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g opacity="0.14">
+    <ellipse cx="400" cy="300" rx="280" ry="120" fill="#8eea8a"/>
+    <path d="M180,350 Q400,200 620,350" stroke="#ffe066" stroke-width="12" fill="none"/>
+    <circle cx="400" cy="300" r="90" fill="#b7e4c7"/>
+    <polygon points="400,210 470,390 330,390" fill="#e0ffb3"/>
+    <g opacity="0.5">
+      <ellipse cx="400" cy="300" rx="60" ry="30" fill="#2a6240"/>
+    </g>
+  </g>
+</svg>

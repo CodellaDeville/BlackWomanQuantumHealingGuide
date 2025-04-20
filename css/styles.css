@@ -1,0 +1,116 @@
+body {
+  background: linear-gradient(135deg, #0d1e13 0%, #1e4632 100%);
+  color: #e6f5e1;
+  font-family: 'Georgia', 'Serif', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.force-dark-mode,
+.force-dark-mode * {
+  background: #0d1e13 !important;
+  color: #e6f5e1 !important;
+  box-shadow: none !important;
+}
+
+.force-dark-mode .cover-page,
+.force-dark-mode .epigenetics-generational,
+.force-dark-mode .quantum-healing,
+.force-dark-mode .breathwork-energy,
+.force-dark-mode .healing-affirmations,
+.force-dark-mode .journal-prompts,
+.force-dark-mode .resources-references,
+.force-dark-mode .closing-affirmation {
+  background: #0d1e13 !important;
+  color: #e6f5e1 !important;
+}
+
+.force-dark-mode blockquote,
+.force-dark-mode .printable-tip {
+  background: #183c1c !important;
+  color: #e6f5e1 !important;
+}
+
+.cover-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #183c1c 40%, #2a6240 100%);
+  color: #e6f5e1;
+  border-bottom: 4px solid #3e7a4d;
+}
+
+.epigenetics-generational {
+  background: linear-gradient(120deg, #214d27 30%, #3e7a4d 100%);
+  border-left: 8px solid #3e7a4d;
+  border-right: 8px solid #214d27;
+  margin: 2rem 0;
+  padding: 2rem 1.5rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 6px 32px #0002;
+}
+
+.quantum-healing {
+  background: linear-gradient(120deg, #3e7a4d 30%, #214d27 100%);
+  border-left: 8px solid #214d27;
+  border-right: 8px solid #3e7a4d;
+  margin: 2rem 0;
+  padding: 2rem 1.5rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 6px 32px #0002;
+}
+
+blockquote {
+  background: rgba(24, 40, 20, 0.85);
+  border-left: 6px solid #3e7a4d;
+  color: #e6f5e1;
+  font-style: italic;
+  margin: 1.5rem 0;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px #214d2744;
+}
+
+.printable-tip {
+  background: linear-gradient(90deg, #183c1c99 0%, #2a624099 100%);
+  color: #fff;
+  border-radius: 0.75rem;
+  padding: 0.75rem 1.5rem;
+  margin: 1.5rem 0 0.5rem 0;
+  font-weight: bold;
+  letter-spacing: 1px;
+  box-shadow: 0 1px 8px #0003;
+}
+.cover-visual {
+  width: 300px;
+  height: 300px;
+  background: url('../assets/images/cover-placeholder.png') center/contain no-repeat;
+  margin-bottom: 2rem;
+}
+h1, h2 {
+  text-align: center;
+  letter-spacing: 1px;
+  margin: 0 0 1rem 0;
+}
+footer {
+  position: fixed;
+  bottom: 20px;
+  width: 100vw;
+  text-align: center;
+}
+button {
+  background: #6e4c1b;
+  color: #ffe6c7;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px #0003;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #a67c52;
+}
